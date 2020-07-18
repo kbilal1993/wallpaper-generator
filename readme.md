@@ -10,4 +10,4 @@ A tool made to create wallpapers based on a predefine pattern.
 ## Instructions
 - Open config.rkt in DrRacket and adjust the settings as required
 - Open wallpaper.rkt in DrRacket and click run
-- Wallpaper will output as wallpaper.pn
+- Wallpaper will output as wallpaper.png
