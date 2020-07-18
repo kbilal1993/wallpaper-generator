@@ -1,1 +1,0 @@
-("7.7" racket ("8a56de7bd6e2bc1f77eb3dec26a08780c99ad5e5" . "78777b6ee2144e5907a3a786a537b3d54f6849a3") #"/home/bill/wallpaper-generator/palette.rkt" (collects #"errortrace" #"errortrace-key.rkt") (collects #"racket" #"main.rkt") (collects #"racket" #"runtime-config.rkt"))
