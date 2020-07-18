@@ -19,3 +19,4 @@
 (define bluegray (list (->rgb "#eceff1") (->rgb "#546e7a")))
 (define brown    (list (->rgb "#efebe9") (->rgb "#795548")))
 (define white    (list (->rgb "#ffffff") (->rgb "#000000")))
+(define retro    (list (->rgb "#9fa8da") (->rgb "#3949ab")))
