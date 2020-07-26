@@ -43,7 +43,7 @@
                (draw-box-pattern o)))))
 
 (define (main o)
-  (send (pict->bitmap (draw-wallpaper o)) save-file "wallpaper.png" 'png)
+  (send (pict->bitmap (draw-wallpaper o)) save-file (format "~a.png" (current-seconds)) 'png)
   (displayln "Wallpaper has been saved to wallpaper.png"))
 
 (main options)

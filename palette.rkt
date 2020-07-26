@@ -20,3 +20,11 @@
 (define brown    (list (->rgb "#efebe9") (->rgb "#795548")))
 (define white    (list (->rgb "#ffffff") (->rgb "#000000")))
 (define retro    (list (->rgb "#9fa8da") (->rgb "#3949ab")))
+
+; https://design.ubuntu.com/brand/colour-palette/
+(define ubuntu-orange (list (->rgb "#fce5de") (->rgb "#eb6536")))
+(define ubuntu-purple (list (->rgb "#eadee5") (->rgb "#772953")))
+
+; https://en.opensuse.org/Help:Colors
+(define opensuse-blue  (list (->rgb "#ccedea") (->rgb "#516f7b")))
+(define opensuse-green (list (->rgb "#dceec8") (->rgb "#73ba25")))

@@ -15,12 +15,12 @@
 ;  (palette (r g b) (r g b)
 ;  Where the first rgb set is the background and the second is the foreground.
 (define options
-  `((width . 1920)               ; Width of the wallpaper,                in pixels
-    (height . 1080)              ; Height of the wallpaper,               in pixels
+  `((width . 800)               ; Width of the wallpaper,                in pixels
+    (height . 600)              ; Height of the wallpaper,               in pixels
     (horizontal-margin . 0)      ; Extra padding from the right,          in pixels
     (vertical-margin . 0)        ; Extra padding from the top,            in pixels
     (box-size . 80)              ; Size of the box in the pattern,        in pixels
     (box-gap . 20)               ; Size of the gap between the boxes,     in pixels
     (shadow-size . 15)           ; Size of the shadow cast by the boxes,  in pixels
     (shadow-darkness . 0.5)      ; Darkness of the shadow,                from 0 to 1
-    (palette . ,palette-retro))) ; Colour palette
+    (palette . ,palette-opensuse-blue))) ; Colour palette
