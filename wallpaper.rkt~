@@ -6,19 +6,13 @@
   (freeze
    (let ((width  (cdr (assoc 'width o)))
          (height (cdr (assoc 'height o)))
-         (color
-          (if (cdr (assoc 'palette-swap o))
-              (car (cdr (cdr (assoc 'palette o)))) ; primary colour
-              (car (cdr (assoc 'palette o)))))) ; secondary colour
+         (color  (car (cdr (assoc 'palette o)))))
      (colorize (filled-rectangle width height) color))))
 
 (define (draw-box o)
   (freeze
    (let* ((size          (cdr (assoc 'box-size o)))
-          (color
-           (if (cdr (assoc 'palette-swap o))
-               (car (cdr (assoc 'palette o))) ; secondary colour
-               (car (cdr (cdr (assoc 'palette o)))))) ; primary colour
+          (color         (car (cdr (cdr (assoc 'palette o)))))
           (shadow-amount (cdr (assoc 'shadow-darkness o)))
           (shadow-size   (cdr (assoc 'shadow-size o)))
           (box           (colorize (filled-rectangle size size #:draw-border? #f) color))
