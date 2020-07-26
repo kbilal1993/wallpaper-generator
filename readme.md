@@ -24,3 +24,8 @@ A wallpaper generator that parametrically generates a specific wallpaper
 ![brown](examples/brown.png)
 ![retro](examples/retro.png)
 ![white](examples/white.png)
+![ubuntu-orange](examples/ubuntu-orange.png)
+![ubuntu-purple](examples/ubuntu-purple.png)
+![opensuse-green](examples/opensuse-green.png)
+![opensuse-blue](examples/opensuse-blue.png)
+
